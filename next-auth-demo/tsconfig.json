@@ -18,6 +18,7 @@
       "@/*": ["./src/*"],
       "@Types": ["./src/@types/index"],
       "@Types/*": ["./src/@types/*"],
+      "@lib/*": ["./src/lib/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
