@@ -19,6 +19,8 @@
       "@Types": ["./src/@types/index"],
       "@Types/*": ["./src/@types/*"],
       "@lib/*": ["./src/lib/*"],
+      "@config": ["./src/config/index.ts"],
+      "@config/*": ["./src/config/*"] 
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
