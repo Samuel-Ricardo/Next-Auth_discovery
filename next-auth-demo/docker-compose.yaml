@@ -14,7 +14,7 @@ services:
     restart: always
     environment:
       - MYSQL_DATABASE=nexttodo_app
-      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=
     ports:
       - 3309:3306
     expose:
