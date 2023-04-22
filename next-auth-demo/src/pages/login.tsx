@@ -1,3 +1,4 @@
+import { LoginPainel } from "@/components";
 import { getSession } from "next-auth/react"
 
 export async function getServerSideProps(context) {
@@ -13,4 +14,12 @@ export async function getServerSideProps(context) {
   }
 
   return {props: {session}}
+}
+
+export default function login () {
+  return (
+    <div className="min-h-screen bg-gray-100 flex flex-col justify-center sm:py-12">
+     <LoginPainel/>   
+    </div>
+  )
 }
