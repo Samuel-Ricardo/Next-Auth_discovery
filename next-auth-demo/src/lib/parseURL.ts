@@ -1,7 +1,5 @@
 import { AUTH_URL } from "@config/env";
 import { IInternalURL } from "@Types";
-import { URL } from "url";
-
 
 /** Returns an `URL` like object to make requests/redirects from server-side */
 export default function parseURL(url?:string):IInternalURL {

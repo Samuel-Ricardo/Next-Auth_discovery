@@ -1,3 +1,5 @@
+import { signIn } from "next-auth/react";
+
 export const LoginPainel =  () => (
   <div className="p-10 xs:p-0 mx-auto md:w-full md:max-w-md">
         <h1 className="font-bold text-center text-2xl mb-5">Your Logo</h1>
